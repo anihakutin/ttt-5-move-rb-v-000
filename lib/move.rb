@@ -9,14 +9,11 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(position)
-  i_position = position.to_i
-  index = i_position - 1
-  return index
+  position.to_i - 1
 end
 
 def move(board, index, value = "X")
   board[index] = value
-  retun board
 end
 
 
