@@ -17,11 +17,9 @@ puts "Where would you like to go?"
 #Store User input
 input = gets.strip
 
-#Convert To Index
-#input_to_index(input)
-
 #Apply move
-move(board, input_to_index(input))
+index = input_to_index(input)
+move(board, index)
 
 #Display Board
 display_board(board)
