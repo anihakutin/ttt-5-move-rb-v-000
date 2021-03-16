@@ -7,10 +7,17 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(user_input)
-user_input.to_i - 1
+
+def input_to_index(position)
+  i_position = position.to_i
+  index = i_position - 1
+  return index
 end
 
-def move(array, index, value = "X")
-array[index] = value
+def move(board, index, value = "X")
+  board[index] = value
+  retun board
 end
+
+
+  
