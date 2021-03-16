@@ -22,3 +22,6 @@ input_to_index(input)
 
 #Apply move
 move(board, input_to_index)
+
+#Display Board
+display_board(board)
