@@ -19,3 +19,5 @@ input = gets.strip
 
 #Convert To Index
 input_to_index(input)
+
+#Apply move
